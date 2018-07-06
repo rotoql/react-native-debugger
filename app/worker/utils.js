@@ -27,8 +27,7 @@ const requiredModules = [
   'MessageQueue',
   'NativeModules',
   'AsyncStorage',
-  'Platform',
-  'setupDevtools',
+  'Platform'
 ];
 export const getRequiredModules = async () => {
   if (!window.__DEV__ || typeof window.require !== 'function') return;
